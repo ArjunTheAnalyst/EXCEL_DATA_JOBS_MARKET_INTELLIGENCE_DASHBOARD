@@ -97,7 +97,7 @@ The raw dataset required extensive transformation before analysis.
 
 ### Power Query - Skills Dataset
 
-![Power Query Skills Dataset](02_Power_Query.png)
+![Power Query Skills Dataset](images/02_Power_Query.png)
 
 **Highlights**
 - Split multi-value skill fields
