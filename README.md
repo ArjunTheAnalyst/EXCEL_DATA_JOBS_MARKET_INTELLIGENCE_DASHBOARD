@@ -145,31 +145,20 @@ This model enables:
 
 ---
 
-# 📐 DAX Measures
+## 📐 DAX Measures
 
-Custom measures were created to support dynamic reporting and KPI calculations.
+The dashboard leverages custom DAX measures to enable dynamic calculations and interactive reporting.
 
-### Key Measures
-
-#### Median Salary
-
-Used throughout the dashboard to compare compensation across:
-
-- Job Titles
-- Countries
-- Skills
-
-#### Skill Count
-
-Calculates the average number of skills associated with job postings.
-
-#### Skill Likelihood
-
-Measures how frequently a skill appears across job postings.
-
-#### Job Count by Title
-
-Calculates the volume of postings by role.
+| Measure | Purpose |
+|----------|----------|
+| Skill Count | Counts skill occurrences within the selected context |
+| Job Count | Counts job postings within the selected context |
+| Skills per Job | Calculates the average number of skills required per posting |
+| Median Yearly Salary | Computes the median annual salary across all jobs |
+| Median Yearly Salary (US) | Computes the median annual salary for US-based jobs |
+| Median Yearly Salary (Non-US) | Computes the median annual salary for jobs outside the US |
+| Median Salary by Skill | Calculates the median salary associated with a specific skill |
+| Skill Likelihood (%) | Measures how frequently a skill appears in job postings |
 
 #### Salary Comparison Metrics
 
