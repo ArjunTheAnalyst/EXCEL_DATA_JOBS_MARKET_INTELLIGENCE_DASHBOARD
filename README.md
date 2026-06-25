@@ -86,7 +86,7 @@ The raw dataset required extensive transformation before analysis.
 
 ### Power Query - Jobs Dataset
 
-![Power Query Jobs Dataset](images/power-query-jobs.png)
+![Power Query Jobs Dataset](images/01_Power_Query.png)
 
 **Highlights**
 - Cleaned and transformed the primary jobs dataset
@@ -97,7 +97,7 @@ The raw dataset required extensive transformation before analysis.
 
 ### Power Query - Skills Dataset
 
-![Power Query Skills Dataset](images/power-query-skills.png)
+![Power Query Skills Dataset](02_Power_Query.png)
 
 **Highlights**
 - Split multi-value skill fields
@@ -141,7 +141,7 @@ This model enables:
 
 ## Power Pivot Data Model
 
-![Power Pivot Data Model](images/data-model.png)
+![Power Pivot Data Model](images/03_Power_Pivot.png)
 
 ---
 
@@ -175,7 +175,7 @@ Used to compare compensation across regions and job categories.
 ### Business Question
 Do more skills equate to better pay?
 
-![Salary vs Skills Analysis](images/salary-vs-skills.png)
+![Salary vs Skills Analysis](images/04_Salary_vs_Skills.png)
 
 ### Key Findings
 
@@ -195,7 +195,7 @@ While acquiring additional skills generally increases earning potential, special
 ### Business Question
 How do salaries vary across job titles and regions?
 
-![Salary Analysis](images/salary-analysis.png)
+![Salary Analysis](images/05_Salary_Analysis.png)
 
 ### Key Findings
 
@@ -215,7 +215,7 @@ Experience level, technical specialization, and geographic location are major dr
 ### Business Question
 Which skills are most frequently requested in data job postings?
 
-![Skill Job Analysis](images/skill-job-analysis.png)
+![Skill Job Analysis](images/06_Skill_Job_Analysis.png)
 
 ### Key Findings
 
@@ -235,7 +235,7 @@ Employers continue to prioritize strong SQL and Python foundations, while cloud 
 ### Business Question
 Which skills are associated with the highest salaries?
 
-![Skill Salary Analysis](images/skill-salary-analysis.png)
+![Skill Salary Analysis](images/07_Skill_Salary_Analysis.png)
 
 ### Key Findings
 
