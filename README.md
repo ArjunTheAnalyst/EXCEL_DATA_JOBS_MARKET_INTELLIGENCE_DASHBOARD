@@ -170,97 +170,83 @@ Used to compare compensation across regions and job categories.
 
 ---
 
-## 1. Salary vs Skills Analysis
+## 📊 Salary vs Skills Analysis
 
 ### Business Question
-
-> Do more skills equate to better pay?
-
-This analysis compares median salary against the average number of skills required for each role.
-
-### Key Insights
-
-- Senior Data Engineer roles require the highest average skill count.
-- Data Engineering positions command strong salaries.
-- There is a positive relationship between skill requirements and compensation.
-
-### Dashboard View
+Do more skills equate to better pay?
 
 ![Salary vs Skills Analysis](images/salary-vs-skills.png)
 
+### Key Findings
+
+- Senior Data Engineer roles command the highest salaries while requiring the largest number of skills.
+- Data Engineering positions generally require broader technical skillsets than analyst-focused roles.
+- Business Analyst and Data Analyst positions require fewer skills and have lower median salaries.
+- The positive trendline suggests a relationship between skill breadth and compensation.
+
+### Insight
+
+While acquiring additional skills generally increases earning potential, specialized expertise in high-value domains such as Data Engineering and Data Science appears to have a greater impact on compensation than skill quantity alone.
+
 ---
 
-## 2. Salary Analysis
+## 💰 Salary Analysis
 
 ### Business Question
-
-> How do salaries compare across job roles and regions?
-
-This dashboard compares median salaries across:
-
-- Job Titles
-- Countries
-- US vs Non-US Markets
-
-### Key Insights
-
-- Senior-level positions consistently command premium salaries.
-- Geographic location significantly impacts compensation.
-- Data Engineers and Data Scientists remain among the highest-paid roles.
-
-### Dashboard View
+How do salaries vary across job titles and regions?
 
 ![Salary Analysis](images/salary-analysis.png)
 
+### Key Findings
+
+- Senior Data Scientist and Senior Data Engineer roles offer the highest median salaries.
+- Machine Learning Engineers and Data Scientists consistently rank among the top-paying positions.
+- US-based salaries are generally higher than salaries outside the United States.
+- Salary differences are particularly noticeable in highly technical roles.
+
+### Insight
+
+Experience level, technical specialization, and geographic location are major drivers of compensation within the data industry.
+
 ---
 
-## 3. Skill Job Analysis
+## 🧠 Skill Job Analysis
 
 ### Business Question
-
-> What are the most requested skills in the data industry?
-
-This analysis measures skill demand across job postings.
-
-### Top Skills Identified
-
-- SQL
-- Excel
-- Tableau
-- Python
-- SAS
-- Power BI
-- R
-
-### Key Insights
-
-- SQL remains the most requested skill.
-- Excel continues to be highly relevant in the market.
-- Visualization tools remain critical across multiple roles.
-
-### Dashboard View
+Which skills are most frequently requested in data job postings?
 
 ![Skill Job Analysis](images/skill-job-analysis.png)
 
+### Key Findings
+
+- SQL is the most requested skill, appearing in over 56% of job postings.
+- Python closely follows SQL and is required in more than half of all postings.
+- Tableau, R, and AWS remain highly sought-after skills.
+- Excel continues to maintain strong relevance despite the growth of modern analytics tools.
+
+### Insight
+
+Employers continue to prioritize strong SQL and Python foundations, while cloud and visualization technologies remain important differentiators in the job market.
+
 ---
 
-## 4. Skill Salary Analysis
+## 💵 Skill Salary Analysis
 
 ### Business Question
-
-> Which skills provide the highest earning potential?
-
-This dashboard combines salary data with skill demand metrics.
-
-### Key Insights
-
-- Python and Tableau are associated with strong compensation.
-- SQL combines high demand with competitive salaries.
-- Some niche skills command premium salaries despite lower demand.
-
-### Dashboard View
+Which skills are associated with the highest salaries?
 
 ![Skill Salary Analysis](images/skill-salary-analysis.png)
+
+### Key Findings
+
+- Spark is associated with the highest median salary among the analyzed skills.
+- AWS, Java, Azure, and Python also command premium compensation.
+- SQL offers one of the strongest combinations of demand and salary.
+- Excel remains valuable but is associated with lower median salaries compared to specialized technical skills.
+
+### Insight
+
+Specialized technologies such as Spark and cloud platforms often command higher salaries, while SQL and Python provide the best balance between market demand and earning potential.
 
 ---
 
@@ -323,7 +309,7 @@ This dashboard combines salary data with skill demand metrics.
 # 📂 Repository Structure
 
 ```text
-data-jobs-market-intelligence-dashboard/
+Data_Jobs_Market_Intelligence_Dashboard/
 │
 ├── README.md
 ├── Data_Jobs_Market_Intelligence_Dashboard.xlsx
@@ -336,24 +322,20 @@ data-jobs-market-intelligence-dashboard/
 │   ├── salary-analysis.png
 │   ├── skill-job-analysis.png
 │   └── skill-salary-analysis.png
-
-
 │
 └── dataset/
     └── data_jobs.csv
 ```
 
----
+# 📌 Conclusion
 
-## 🎓 Key Learnings
+This project demonstrates a complete Business Intelligence workflow using Excel, Power Query, Power Pivot, and DAX to transform raw job posting data into actionable market insights.
 
-Through this project, I gained hands-on experience in:
+The analysis revealed that:
 
-- Building scalable data models using Power Pivot
-- Managing one-to-many relationships and cardinality
-- Designing efficient ETL workflows in Power Query
-- Developing DAX measures for analytical reporting
-- Creating interactive dashboards for decision-making
-- Translating raw data into actionable business insights
+- SQL and Python remain the most essential skills in the data job market.
+- Specialized technologies such as Spark, AWS, and Azure command premium salaries.
+- Senior-level engineering and data science roles offer the highest compensation.
+- Broader technical skillsets generally correlate with higher earning potential.
 
-This project strengthened my understanding of the complete Business Intelligence workflow and reinforced best practices in data preparation, modeling, and visualization.
+By combining data cleaning, data modeling, DAX calculations, and dashboard development, this project showcases practical Business Intelligence techniques used to support data-driven career and workforce decisions.
