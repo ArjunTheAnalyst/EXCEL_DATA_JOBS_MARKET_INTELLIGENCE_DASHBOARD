@@ -160,10 +160,6 @@ The dashboard leverages custom DAX measures to enable dynamic calculations and i
 | Median Salary by Skill | Calculates the median salary associated with a specific skill |
 | Skill Likelihood (%) | Measures how frequently a skill appears in job postings |
 
-#### Salary Comparison Metrics
-
-Used to compare compensation across regions and job categories.
-
 ---
 
 # 📊 Dashboard Analysis
