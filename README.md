@@ -302,27 +302,6 @@ Specialized technologies such as Spark and cloud platforms often command higher 
 
 ---
 
-# 📂 Repository Structure
-
-```text
-Data_Jobs_Market_Intelligence_Dashboard/
-│
-├── README.md
-├── Data_Jobs_Market_Intelligence_Dashboard.xlsx
-│
-├── images/
-│   ├── power-query-jobs.png
-│   ├── power-query-skills.png
-│   ├── data-model.png
-│   ├── salary-vs-skills.png
-│   ├── salary-analysis.png
-│   ├── skill-job-analysis.png
-│   └── skill-salary-analysis.png
-│
-└── dataset/
-    └── data_jobs.csv
-```
-
 # 📌 Conclusion
 
 This project demonstrates a complete Business Intelligence workflow using Excel, Power Query, Power Pivot, and DAX to transform raw job posting data into actionable market insights.
